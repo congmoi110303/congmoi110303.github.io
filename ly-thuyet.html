@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html style="background-color: aquamarine">
+    <head>
+        <title>Website_Co_Ban</title>
+        <link rel="stylesheet" type ="text/css" href="style.css">
+    </head>
+    <body>
+        <main>
+            <form>
+                <h1 style="text-align:center; background-color: rgba(179, 150, 19, 0.164)">Đăng kí thông tin sinh viên</h1>
+                <br>
+                <div style="border:3px solid black ;width:50%;margin:0 auto;padding:2%;">
+                <h2>Nhập thông tin sinh viên</h2>
+                <p>
+                    <label for ="Fullname"><b>Fullname:</b></label>
+                    <input type = "text" name="Fullname" id ="Fullname" required/>
+                </p>
+                <p>
+                    <label for="Gender"><b>Gender:</b></label>
+                    <input type="radio" name ="Gender" id="Gender"/>Nam
+                    <input type="radio" name ="Gender" id="Gender"/>Nữ
+                    <input type="radio" name ="Gender" id="Gender"/>Khác
+                </p>
+                <p>
+                    <label for ="Birthday"><b>Birthday:</b></label>
+                    <input type="date" name ="Birthday" id ="Birthday" required/>
+                </p>
+                <p>
+                    <label for="Phone"><b>Phone:</b></label>
+                    <input type="number" name ="Phone" id ="Phone" />
+                </p>
+                <p>
+                    <label for="Email"><b>Email:</b></label>
+                    <input type="Email" name="Email" id ="Email" placeholder ="Ex: Nhungcutehotme@gmail.com" required/>
+                </p>
+                <p>
+                    <label for="Nationalist"><b>Nationalist:</b></label>
+                    <select name = "Nationalist" id = "Nationalist">
+                        <option>Lào</option>
+                        <option>Campuchia</option>
+                        <option>Trung Quốc</option>
+                        <option selected>Việt Nam</option>
+                        <option>Singapo</option>
+                        <option>Mỹ</option>
+                    </select>
+                </p>
+                <p style ="text-align :center">
+                    <button>Đăng ký</button>
+                </p>
+        </div>
+    </form>
+        </main>
+    </body>
+</html>
